@@ -1,0 +1,128 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+.cabecalho{
+    background-image: url(imagens/desert_moon.jpg);
+    height: 600px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 1px;
+}
+
+.div-cabecalho{
+    /*background-color: #7fffd4;*/
+    margin: 300px auto 0 auto;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.div-cabecalho h1{
+    font-size: 50px;
+    text-shadow: 2px 2px #523328;
+}
+
+.div-cabecalho a{
+    background-color: #165359;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.div-cabecalho a:hover{
+    background-color: #ffffff;
+    color: #165359;
+}
+
+.cabecalho nav ul{
+    /*background-color: aquamarine;*/
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    font-size: 12px;  
+}
+
+.cabecalho nav a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #165359;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cabecalho nav a:hover{
+    background-color: #ffffff;
+    color: #165359;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}   
+
+.div-box{
+    background-color: #523328;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box{
+    text-align: center;
+    background-color: #165359;
+    color: #ffffff;
+    margin: 20px 20px 20px 20px;
+}
+
+
+.config{
+    padding: 30px;  
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.content img{
+    width: 2cm;
+    height: 2cm;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content img:hover{
+    transform:  scale(1.2);
+}   
+
+.div-audio{
+    width: 300px;
+    margin: 0 auto;
+}
+
+audio{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #165359;
+    padding: 5px;
+    text-align: center;
+}
+
